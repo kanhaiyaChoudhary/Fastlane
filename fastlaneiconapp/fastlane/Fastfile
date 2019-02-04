@@ -7,7 +7,6 @@ platform :ios do
   lane :custom_lane do
 
                    gym(
-			    workspace: "/Users/kanhaiya.chaudhary/Desktop/fastlaneiconapp/fastlaneiconapp.xcodeproj",
 			    scheme: "fastlaneiconapp",  
 			    export_method:"development", 
 			    export_xcargs: "-allowProvisioningUpdates",
